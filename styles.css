@@ -40,10 +40,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: calc(3.75 * var(--spacing-unit)) calc(5 * var(--spacing-unit)); 
-    gap: calc(2.5 * var(--spacing-unit));
-    height: calc(20 * var(--spacing-unit));
-    max-width: calc(55 * var(--spacing-unit));
+    flex-wrap: wrap;
+    padding: 4% 5%; 
+    gap: 5em;
+    height: 15%;
+    max-width: 50%;
     margin: 0 auto;
  }   
 
@@ -77,6 +78,8 @@ li {
  }
 
 .card-title {
+    display: flex;
+    align-items: flex-start;
     font-size: 48px;
     font-weight: 900;
 }
@@ -197,7 +200,7 @@ li {
     align-items: center;
     flex-direction: column;
     background-color: #ddd;
-    padding: 100px 300px;
+    padding: 5% 5%;
     margin: 0;
 }
 
