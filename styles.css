@@ -7,6 +7,11 @@ body {
   justify-content: space-between;
 }
 
+html,
+body {
+    height: 100%
+}
+
 /* ========== Layout Blocks ========== */
 .hero,
 .footer {
@@ -34,6 +39,7 @@ body {
     padding: 75px 150px 75px 100px;
     gap: 50px;
     height: 400px;
+    max-width:1200px;
     margin: 0 auto;
  }   
 
@@ -113,6 +119,7 @@ li {
 .content-middle {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 
@@ -178,6 +185,7 @@ li {
 
 .quotation {
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #ddd;
     padding: 100px 300px;
@@ -192,8 +200,7 @@ li {
 }
 
 .author {
-    display: flex;
-    justify-content: flex-end;
+    padding-left: 50%;
     margin-top: 20px;
 }
 
