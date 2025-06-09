@@ -33,7 +33,7 @@ body {
     align-items: center;
     padding: 75px 150px 75px 100px;
     gap: 50px;
-    max-width: 1200px;
+    height: 400px;
     margin: 0 auto;
  }   
 
@@ -122,8 +122,6 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
     }
 
 
@@ -183,8 +181,7 @@ li {
     flex-direction: column;
     background-color: #ddd;
     padding: 100px 300px;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
 .quote-text {
